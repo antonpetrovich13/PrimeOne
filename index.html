@@ -1,86 +1,1098 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
 <!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Prime One</title>
-	<link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<div class="header__wrapper">
-					<div class="header__main">
-						<div class="header__top top">
-							<div class="top__burger">
-								<span></span>
-							</div>
-							<div class="top__column top__column_fir">
-								<div class="top__text">
-									<p>EN</p>
-									<span></span>
-								</div>
-								<div class="top__text">
-									<p>RU</p>
-									<span></span>
-								</div>
-								<div class="top__text">
-									<p>ESP</p>
-									<span></span>
-								</div>
-							</div>
-							<div class="top__column top__column_ord">
-								<a href="" class="top__link">Online ordering</a>
-							</div>
-						</div>
-						<div class="header__bottom bottom">
-							<nav class="bottom__menu">
-								<ul class="bottom__links">
-									<li class="bottom__link">
-										<a href="">ABOUT</a>
-									</li>
-									<li class="bottom__link">
-										<a href="">Menus</a>
-									</li>
-									<li class="bottom__link">
-										<a href="">Service Info</a>
-									</li>
-									<li class="bottom__link">
-										<a href="">Gallery</a>
-									</li>
-									<li class="bottom__link">
-										<a href="">Friends</a>
-									</li>
-									<li class="bottom__link">
-										<a href="">Contact</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-					<div class="header__logo logo">
-						<div class="logo__wrap">
-							<p class="logo__before">
-							NYC'S
-							</p>
-							<a href="" class="logo__image">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Brandi</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+		<meta property="og:locale" content="ru_RU">
+		<!-- тип контента, по умолчанию используется article -->
+		<meta property="og:type" content="article">
+		<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+		<meta property="og:title" content="Brandi">
+		<!-- описание страницы -->
+		<meta property="og:description" content="Адаптивный лендинг">
+		<!-- ссылка на изображение, которое будет публиковаться в записи -->
+		<meta property="og:image" content="img/bg.jpg">
+		<!-- ссылка на текущую страницу -->
+		<meta property="og:url" content="https://antonpetrovich13.github.io/BEM/">
+		<!-- название сайта -->
+		<meta property="og:site_name" content="Brandi">
+
+		<!-- Тип карты, по умолчанию используется summary -->
+		<meta name="twitter:card" content="summary">
+		<!-- Имя/логин автора -->
+		<meta name="twitter:site" content="Anton">
+		<!-- Название страницы -->
+		<meta name="twitter:title" content="Brandi">
+		<!-- Описание страницы -->
+		<meta name="twitter:description" content="Адаптивный лендинг">
+		<!-- Cсылка на изображение -->
+		<meta name="twitter:image" content="img/bg.jpg">
+		<link rel="shortcut icon" href="img/favicon.ico" >
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div id="home" class="wrapper">
+			<header class="header _anim-items _anim-no-hide">
+				<div class="container">
+					<div class="header__wrapper">
+						<div class="header__body">
+							<a href="" class="header__logo">
 								<img src="img/logo.png" alt="">
 							</a>
-							<p class="logo__after">
-								Catering
-							</p>
+							<p class="header__text"><span>|</span> I’am your tag line</p>
+						</div>
+						<div class="header__burger">
+							<span></span>
+						</div>
+						<div class="header__menu">
+							<ul class="header__list">
+								<li>
+									<a href="#home" class="header__link">Home</a>
+								</li>
+								<li>
+									<a href="#features" class="header__link">Features</a>
+								</li>
+								<li>
+									<a href="#works" class="header__link">Works</a>
+								</li>
+								<li>
+									<a href="#team" class="header__link">Team</a>
+								</li>
+								<li>
+									<a href="#contact" class="header__link">Contact</a>
+								</li>
+							</ul>
 						</div>
 					</div>
 				</div>
+			</header>
+			<div class="page">
+				<div class="mainblock">
+					<div class="main-info">
+						<div class="container">
+							<div class="main-info__wrap">
+								<div class="main-info__wrapper">
+									<div class="main-info__floor">
+										<div class="main-info__text _anim-items _anim-no-hide">
+											<div class="main-info__title">
+												Meet Brandi!
+											</div>
+											<div class="main-info__label">
+												<span>/creative</span> one page template.
+											</div>
+											<div class="main-info__subtitle">
+												We are a team of professionals
+											</div>
+										</div>
+									</div>
+									<div class="main-info__floor">
+										<div class="main-info__links _anim-items _anim-no-hide">
+											<a href="" class="main-info__link">
+												<img src="img/Links/twitter.png" alt="">
+											</a>
+											<a href="" class="main-info__link">
+												<img src="img/Links/facebook.png" alt="">
+											</a>
+											<a href="" class="main-info__link main-info__link_g">
+												<img src="img/Links/google.png" alt="">
+											</a>
+											<a href="" class="main-info__link">
+												<img src="img/Links/dribbble.png" alt="">
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mainscreen ibg">
+						<img src="img/bg.jpg" alt="">
+					</div>
+				</div>
+				<div class="wrap">
+					<div class="content">
+						<div id="features" class="features">
+							<div class="container">
+								<div class="features__title title _anim-items _anim-no-hide">
+									<div class="title__label">
+										Features
+									</div>
+									<div class="title__icon">
+										<img src="img/heart.png" alt="">
+									</div>
+								</div>
+								<div class="features__slider">
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img features__img_p">
+												<img src="img/features/01.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Branding
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img">
+												<img src="img/features/02.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Development
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img">
+												<img src="img/features/03.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Consulting
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img features__img_p">
+												<img src="img/features/01.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Branding
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img">
+												<img src="img/features/02.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Development
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img">
+												<img src="img/features/03.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Consulting
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="features__slide">
+										<div class="features__row">
+											<div class="features__img features__img_p">
+												<img src="img/features/01.png" alt="">
+											</div>
+											<div class="features__body">
+												<div class="features__label">
+													Branding
+												</div>
+												<div class="features__text">
+													Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="works" class="works">
+							<div class="container">
+								<div class="works__title title _anim-items _anim-no-hide">
+									<div class="title__label">
+										works
+									</div>
+									<div class="title__icon">
+										<img src="img/heart.png" alt="">
+									</div>
+								</div>
+								<div class="works__subtitle">
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+								</div>
+									<nav class="works__filter filter">
+										<ul class="filter__list">
+												<li data-filter="1" class="filter__link"><span>All</span></li>
+												<li data-filter="2" class="filter__link"><span>Branding</span></li>
+												<li data-filter="3" class="filter__link"><span>Web</span></li>
+												<li data-filter="4" class="filter__link"><span>Logo Design</span></li>
+												<li data-filter="5" class="filter__link"><span>Photography</span></li>
+										</ul>
+									</nav>
+							</div>
+							<div class="works__items">
+								<div class="works__column f_4">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/01.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Logo Design
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_2">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/02.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Branding
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_5">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/03.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Photography
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_4">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/04.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Logo Design
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_5">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/05.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Photography
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_2">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/06.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Branding
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_3">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/07.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Web
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="works__column f_2">
+									<a href="#" class="works__item">
+										<span class="works__image">
+											<img src="img/works/08.jpg" alt="">
+										</span>
+										<span class="works__bg bg">
+											<span class="bg__icon">
+												<img src="img/works/eye.png" alt="">
+											</span>
+											<span class="bg__title">
+												Labore et dolore magnam
+											</span>
+											<span class="bg__subtitle">
+												Branding
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div id="team" class="team">
+							<div class="container">
+								<div class="team__title title _anim-items _anim-no-hide">
+									<div class="title__label">
+										Meet Our Team
+									</div>
+									<div class="title__icon">
+										<img src="img/heart.png" alt="">
+									</div>
+								</div>
+								<div class="works__subtitle">
+									Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+								</div>
+								<div class="team__slider">
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/01.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													John Filmr Doe
+												</a>
+												<div class="team__sublabel">
+													Managing Director
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/02.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Chystine Hineu
+												</a>
+												<div class="team__sublabel">
+													Lead Designer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/03.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Martin Matrone
+												</a>
+												<div class="team__sublabel">
+													Lead Developer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/04.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Steve Flaulkin
+												</a>
+												<div class="team__sublabel">
+													Sr. UI Designer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/01.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													John Filmr Doe
+												</a>
+												<div class="team__sublabel">
+													Managing Director
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/02.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Chystine Hineu
+												</a>
+												<div class="team__sublabel">
+													Lead Designer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/03.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Martin Matrone
+												</a>
+												<div class="team__sublabel">
+													Lead Developer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/04.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Steve Flaulkin
+												</a>
+												<div class="team__sublabel">
+													Sr. UI Designer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/01.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													John Filmr Doe
+												</a>
+												<div class="team__sublabel">
+													Managing Director
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/02.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Chystine Hineu
+												</a>
+												<div class="team__sublabel">
+													Lead Designer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/03.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Martin Matrone
+												</a>
+												<div class="team__sublabel">
+													Lead Developer
+												</div>
+										</div>
+									</div>
+									<div class="team__slide">
+										<div class="team__item item">
+											<a href="" class="item__photo">
+												<img src="img/team/04.png" alt="">
+											</a>
+											<div class="item__body">
+												<div class="item__arrow">
+													<img src="img/01.png" alt="">
+												</div>
+												<div class="item__title">
+													Nemo enim ipsam voluptatem quia voluptas 
+												</div>
+												<div class="item__subtitle">
+													Sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
+												</div>
+												<div class="item__socials">
+													<a href="" class="item__link">
+														<img src="img/Links/twitter.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/facebook.png" alt="">
+													</a>
+													<a href="" class="item__link">
+														<img src="img/Links/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="team__text">
+												<a href="" class="team__label">
+													Steve Flaulkin
+												</a>
+												<div class="team__sublabel">
+													Sr. UI Designer
+												</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="facts">
+							<div class="container-2">
+								<div class="facts__title title _anim-items _anim-no-hide">
+									<div class="title__label">
+										Some Fun Facts
+									</div>
+									<div class="title__icon title__icon_w">
+										<img src="img/heart_2.png" alt="">
+									</div>
+								</div>
+								<div class="facts__wrap">
+									<div class="facts__column facts__column_1 _anim-items _anim-no-hide">
+										<div class="facts__item">
+											<div class="facts__image">
+												<img src="img/facts/01.png" alt="">
+											</div>
+											<div class="facts__body">
+												<div class="facts__label">
+													3200
+												</div>
+												<div class="facts__subtitle">
+													Hours of Work
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="facts__column facts__column_2 _anim-items _anim-no-hide">
+										<div class="facts__item">
+											<div class="facts__image">
+												<img src="img/facts/02.png" alt="">
+											</div>
+											<div class="facts__body">
+												<div class="facts__label">
+													120
+												</div>
+												<div class="facts__subtitle">
+													Satisfied Clinets
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="facts__column facts__column_3 _anim-items _anim-no-hide">
+										<div class="facts__item">
+											<div class="facts__image">
+												<img src="img/facts/03.png" alt="">
+											</div>
+											<div class="facts__body">
+												<div class="facts__label">
+													360
+												</div>
+												<div class="facts__subtitle">
+													Projects delivered
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="facts__column facts__column_4 _anim-items _anim-no-hide">
+										<div class="facts__item">
+											<div class="facts__image">
+												<img src="img/facts/04.png" alt="">
+											</div>
+											<div class="facts__body">
+												<div class="facts__label">
+													42
+												</div>
+												<div class="facts__subtitle">
+													Awards Won
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="contact" class="discuss">
+							<div class="container">
+								<div class="discuss__title title _anim-items _anim-no-hide">
+									<div class="title__label">
+										Let’s Discuss
+									</div>
+									<div class="title__icon">
+										<img src="img/heart.png" alt="">
+									</div>
+								</div>
+								<div class="works__subtitle">
+									Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+								</div>
+								<div class="discuss__wrapper">
+									<div class="discuss__column discuss__column_1">
+										<div class="discuss__contacts contacts">
+											<div class="contacts__title">
+												Cras at ultrices erat, sed vulputate!
+											</div>
+											<div class="contacts__body">
+												<div class="contacts__adress">
+													2345 Setwant natrer, 1234, <br> Washington. United States.
+												</div>
+													<a class="contacts__phone" href="tel:4011234567">
+														(401) 1234 567
+													</a>
+													<a class="contacts__mail" href="mailto:hello@brandi.com" >
+														hello@brandi.com
+													</a>
+												<a href="#" class="contacts__site">ww.brandi.com</a>
+											</div>
+										</div>
+									</div>
+									<div class="discuss__column discuss__column_2">
+										<div class="discuss__body">
+											<div class="discuss__wrap">
+												<form action="" class="discuss__form form">
+													<div class="form__body">
+														<div class="form__title">
+															Say hello!
+														</div>
+														<div class="form__wrap">
+															<input placeholder="Name" type="text" class="form__name">
+															<input placeholder="E-mail" type="text" class="form__mail">
+														</div>
+														<textarea placeholder="Message" class="form__message"></textarea>
+														<div class="form__btn">
+															<button type="reset" class="form__button">
+																Send message
+															</button>
+														</div>
+													</div>
+												</form>
+												<div class="discuss__links">
+													<a href="" class="discuss__link">
+														<img src="img/discuss/behance.png" alt="">
+													</a>
+													<a href="" class="discuss__link">
+														<img src="img/discuss/twitter.png" alt="">
+													</a>
+													<a href="" class="discuss__link">
+														<img src="img/discuss/dribbble.png" alt="">
+													</a>
+													<a href="" class="discuss__link">
+														<img src="img/discuss/forrst.png" alt="">
+													</a>
+													<a href="" class="discuss__link">
+														<img src="img/discuss/google.png" alt="">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div>
+							</div>
+						</div>
+						<div class="map">
+							<div id="map" class="map__maps"></div>
+						</div>
+						<footer class="footer">
+							<div class="container">
+								<div class="footer__wrapper">
+									<div class="footer__column">
+										<a href="#home" class="footer__logo">
+											<img src="img/logo.png" alt="">
+										</a>
+										<div class="footer__text">
+											Eusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+										</div>
+									</div>
+									<div class="footer__column">
+										<div class="footer__subscribe subscribe">
+											<div class="subscribe__title">
+												Subscribe
+											</div>
+											<form action="" class="subscribe__form">
+												<div class="subscribe__wrap">
+													<input type="text" class="subscribe__email">
+													<button type="reset" class="subscribe__btn">
+														<img src="img/02.png" alt="">
+													</button>
+												</div>
+											</form>
+											<div class="subscribe__text">
+												Eusmod tempor incididunt ut labore et dolore magna aliqua.
+											</div>
+										</div>
+									</div>
+									<div class="footer__column">
+										<div class="footer__explore explore">
+											<div class="explore__title">
+												Explore
+											</div>
+											<div class="explore__wrap">
+												<div class="explore__column">
+													<p>Envato</p>
+													<p>Themecurve</p>
+													<p>Kreativeshowcase</p>
+													<p>Freebiescurve</p>
+												</div>
+												<div class="explore__column">
+													<p>Themeforest</p>
+													<p>Microsoft</p>
+													<p>Google</p>
+													<p>Yahoo</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="footer__column">
+										<div class="footer__title">
+											Created with<span><img src="img/heart.png" alt=""></span>by <a href="">themecurve</a>, exclusive for kreativeshowcase
+										</div>
+										<div class="footer__autor">
+											© 2014 Brandi. All Rights Reserved.
+										</div>
+									</div>
+								</div>
+							</div>
+						</footer>
+					</div>
+				</div>
 			</div>
-		</header>
-		<div class="content">
-			Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius nihil, reiciendis, exercitationem assumenda atque obcaecati ad possimus architecto quidem. Quae nisi maxime dolores. Magni a quia repellendus architecto earum asperiores, delectus eos quod ex laborum, dolore deleniti laboriosam, commodi nihil distinctio ad optio quis reprehenderit deserunt labore atque eius maxime obcaecati. Repellat nobis vero dolor fugiat molestiae expedita officia quas. Ducimus, impedit? Dicta in laborum consequatur vitae laudantium numquam, praesentium necessitatibus dolor commodi hic vel modi, suscipit voluptatum enim, ullam velit corrupti sequi officiis at dolores nostrum quibusdam assumenda eaque qui? Totam ullam minus impedit rerum amet exercitationem quibusdam dignissimos aspernatur atque itaque omnis odio quo nemo nobis, culpa tempora veritatis delectus odit? Laborum quos nemo corporis possimus laudantium dignissimos odit fuga, dolore beatae minima quas necessitatibus reiciendis consectetur et, nam doloribus deleniti, repellat labore culpa molestias dolorem, aliquid dolores neque. Quibusdam sint corporis corrupti quae possimus odio quaerat aspernatur nesciunt in laboriosam nisi autem voluptatem perspiciatis qui, id sunt pariatur, odit? Amet, adipisci laborum optio aspernatur. Dicta maxime iusto esse reprehenderit, omnis animi adipisci odio rerum excepturi placeat ut ea blanditiis quibusdam ipsum reiciendis aperiam vitae voluptatibus commodi nihil laborum? Ratione perferendis tenetur expedita sunt, quia odio deserunt, excepturi enim totam, labore aut sequi! Voluptas error similique earum distinctio odio maiores cupiditate ducimus atque possimus voluptatum necessitatibus deserunt reiciendis, veniam voluptatem repellat sunt? Iusto quod nobis aperiam asperiores laboriosam sapiente beatae doloremque, necessitatibus commodi tenetur expedita laborum natus dolores temporibus ut, aspernatur fugit voluptas facilis at iste molestiae aliquam cum similique perspiciatis! Soluta autem, quos obcaecati deserunt. Blanditiis, quos voluptate, amet numquam doloremque possimus consectetur, natus praesentium accusamus labore adipisci inventore, ducimus dolorum. Facilis nam harum quo natus quis necessitatibus nobis id odio doloremque ad praesentium deleniti at voluptate magni eligendi neque temporibus voluptas assumenda, aliquid hic repudiandae placeat error. Quibusdam voluptate aspernatur, nisi officiis recusandae ratione deleniti atque officia repellat ipsam eaque quaerat dolorem amet rerum placeat doloremque numquam, quos aliquam animi tenetur vel perferendis praesentium? Doloremque ea quam doloribus labore at eaque voluptatum quos voluptates similique pariatur culpa placeat repudiandae sequi impedit dignissimos, fuga minima assumenda, dolores vero ut, explicabo! Assumenda ex dolorem sequi voluptatem accusamus iste veniam corrupti quae quibusdam? Fugiat quibusdam similique modi rem laudantium reiciendis, esse provident veniam possimus itaque consequuntur, cumque sapiente nemo rerum eligendi quia odio nostrum maiores ad quisquam. Architecto eum quam, quasi ipsa totam laborum, atque illum asperiores veniam amet delectus. Ad error consequatur nulla impedit esse fugit, et voluptates excepturi, corrupti nihil veritatis labore repudiandae mollitia, ea id repellat quod pariatur nostrum molestiae cumque. Perferendis dolorum enim excepturi veritatis quasi odio maxime itaque exercitationem ullam aliquam temporibus dolore voluptates dignissimos, officiis perspiciatis hic assumenda, saepe ut dolor ipsa. Nesciunt possimus ipsa, ex, exercitationem esse assumenda quod sapiente odio illo ut dolorem ad facilis repellendus quos nulla quisquam accusantium molestiae fugit nihil quam cumque facere culpa? Provident nobis aliquid tenetur explicabo quia vero voluptatum, ab facilis repellat delectus harum iste velit quam distinctio. Repellendus doloribus fuga voluptatem labore aut quod, eos consequuntur cumque quibusdam voluptatum beatae molestiae, tenetur fugiat distinctio, quidem cupiditate id ullam at esse ad modi explicabo similique sequi libero. Nihil optio explicabo, beatae esse ullam ratione mollitia delectus dolores vitae minima totam vel nam, necessitatibus quia, suscipit quidem aut ea! Numquam soluta deleniti nobis quas eum, quaerat, voluptas recusandae, modi illo sit cum eveniet explicabo iure! Rerum accusantium, molestiae earum sapiente a iure incidunt, repellat praesentium quibusdam natus, quae, facere eos deserunt voluptas provident beatae molestias fugit. Aperiam harum aspernatur eius ex iusto quas doloribus assumenda, possimus nostrum deleniti. Suscipit quisquam iste, ratione maiores sit, iusto fuga rerum temporibus, rem officiis sapiente facilis nulla deserunt! Eaque, ipsum. Dolor et fugiat harum quidem neque ipsum eius amet quasi officiis qui ipsam ducimus repellat vel dignissimos rerum consequuntur, assumenda? Natus nesciunt labore officiis aspernatur obcaecati exercitationem consectetur ipsa quam veritatis dignissimos quaerat blanditiis magnam numquam hic excepturi cupiditate, assumenda atque, est non iste velit, nemo aperiam. Minus dolor, enim sit suscipit quod neque tempora iure harum reprehenderit quis eligendi vero, quos mollitia ab nisi explicabo voluptatum nam, numquam eum quaerat quas voluptate, soluta ad porro. Aperiam explicabo odio sint repudiandae dignissimos at nostrum molestiae perspiciatis, fuga dolore aspernatur ipsum nam rerum nihil non dolores ipsa porro praesentium unde est doloribus quis numquam minus commodi iste. Perspiciatis mollitia soluta natus, rem voluptatem, placeat! Fugit architecto facere nostrum inventore accusamus? Suscipit corrupti deleniti esse quisquam mollitia reprehenderit ad reiciendis, voluptatem laboriosam et similique nostrum quasi ipsa labore veritatis, sed sit ut ratione corporis deserunt? Error aperiam a non nostrum perferendis! Excepturi quae officia, et veritatis, praesentium cum quod nulla delectus ea maxime iste placeat modi totam repellendus non expedita. Cupiditate porro, maiores. Quae reprehenderit assumenda magni vero asperiores consequatur impedit maiores quo, facilis, porro similique, quaerat beatae. Veritatis ullam nemo odit, vero? Optio, laborum fugit quibusdam laudantium sunt, repellat, at nam aspernatur nisi vitae minus minima totam molestias veniam, possimus in! Est odit sunt molestias nesciunt reiciendis dicta dolorum eum sint laboriosam incidunt, minus odio quasi officia fugit adipisci minima deserunt aperiam corrupti repellat velit rem ipsa, quo ullam eveniet! Tenetur vero, voluptate ullam voluptatum dolores at autem rem animi, beatae incidunt, esse veritatis illum assumenda nostrum in, repellendus qui exercitationem debitis aspernatur unde corrupti magni inventore ratione officiis quas. Quibusdam, ipsa. Dolorum quos sapiente reprehenderit id possimus quasi atque numquam rem ipsa tempora voluptatem earum libero aut iure ullam deserunt vel necessitatibus incidunt sequi consectetur, eaque asperiores unde, minus, culpa! Molestias consequatur debitis saepe provident maiores voluptatem maxime ipsam, tenetur pariatur aperiam praesentium eligendi molestiae distinctio aliquam, animi perspiciatis, earum placeat deserunt in illo rem corrupti eos. Eveniet corporis numquam tenetur iure voluptatibus. Deleniti explicabo totam facilis repellendus sed quidem voluptatibus, rerum earum error, odio eligendi odit distinctio quaerat perspiciatis. Saepe totam eius natus inventore laudantium aspernatur sit voluptatum temporibus, labore rerum possimus quasi recusandae blanditiis quis beatae reprehenderit maiores porro unde magnam vero nisi eveniet. Non laboriosam delectus voluptates laudantium, quidem? Qui mollitia veniam, illum quasi fugit. Dolore nulla atque delectus iste sapiente? Beatae facilis id odio voluptatem explicabo qui, nobis similique iure dolorum adipisci voluptatum porro vero, odit eaque eum veritatis, sequi praesentium eius quam? Ipsam ex quas nam non molestias neque numquam necessitatibus, repellendus in. Ea vero odio incidunt, minus voluptas quisquam. Eius minima nobis quis, saepe, consequatur, voluptatum quod quas harum accusamus blanditiis dicta perspiciatis aperiam maiores. Reprehenderit enim, maxime ipsum soluta nobis possimus adipisci officiis hic accusamus obcaecati quaerat cupiditate, dolore. Et illo at, provident! Veritatis quae incidunt enim laborum nulla deserunt vero molestias quia id blanditiis pariatur earum, itaque perspiciatis obcaecati minima sed cupiditate illo vel ex dolorum eius non assumenda iure. Magnam veritatis voluptas dolorum sequi cupiditate, voluptatem animi ducimus eaque, facere autem asperiores cumque, quis adipisci quo! Excepturi quisquam nam, expedita voluptate repudiandae quidem omnis? Corrupti doloribus excepturi in eos, facilis reprehenderit, placeat quod? Sunt beatae ex doloribus non consectetur quidem qui ab sed, magni deserunt blanditiis recusandae vel perspiciatis tempore. Quaerat iusto veniam laudantium tempora, eligendi delectus, aliquam perferendis officiis impedit, quia sunt doloribus maiores, non veritatis doloremque atque sapiente quis. Doloremque tempora quo facilis at possimus! Autem maiores expedita hic, maxime corrupti nulla non blanditiis quibusdam fugit quos vitae ipsum quas, natus aspernatur explicabo quaerat assumenda voluptates esse consectetur consequatur illum impedit accusantium. Dolorem ducimus dolore omnis dolores debitis quos sit eius dicta distinctio accusamus vitae earum nihil deserunt facere perferendis culpa unde laboriosam repellendus veritatis expedita commodi minus, quia recusandae? Accusantium assumenda sit, nihil dicta sequi eius id quibusdam cum officiis dolor perferendis necessitatibus, iure sunt minus quasi exercitationem itaque iusto, veniam quis autem quos laudantium atque amet ducimus? Fugit totam officiis aspernatur. Molestiae cupiditate, natus, totam omnis obcaecati, quibusdam excepturi, provident autem alias aliquam tenetur at repellat quidem cum iste perspiciatis nam! Accusamus vero id consectetur esse, maxime minus optio doloribus maiores, laboriosam fugiat nam, voluptates dolor? Velit dolores ad, fugiat cumque soluta maiores, repellendus incidunt quis sint amet provident eum inventore unde quaerat hic veniam beatae! Dolorem doloribus esse eius libero beatae, adipisci ab tenetur veritatis aliquam iusto cum, eum nobis nostrum consectetur, illo ex placeat quam fugit rem corrupti architecto modi natus saepe nulla distinctio. Perspiciatis, incidunt, eum. Eveniet sed, perferendis omnis quod optio a est labore tempore pariatur delectus quibusdam ducimus quidem odio sapiente quaerat aspernatur molestiae amet accusantium ut fugit cumque veritatis dignissimos harum? Quibusdam distinctio placeat, perspiciatis impedit ea tempore, ipsam voluptatibus vero officiis dolorem animi rerum voluptates corporis quidem facere corrupti quasi velit beatae quis molestias quas. Harum nobis voluptas, nihil laudantium saepe iure illo ullam modi cumque porro natus culpa reiciendis inventore, dignissimos! Laudantium commodi harum ipsum? Perferendis excepturi neque esse, impedit itaque, alias velit consequuntur mollitia qui ad eligendi nulla omnis a dolorum officia odit recusandae asperiores reprehenderit ex inventore rerum porro ea? Autem totam, quae, placeat voluptate consectetur corrupti officia, repudiandae in ex vero facilis? Tenetur in, nemo vitae, praesentium esse blanditiis, ad, numquam quisquam necessitatibus facilis totam labore dolorum repudiandae a. Iste debitis repudiandae id magni, suscipit illo magnam laboriosam voluptatibus sequi vitae, exercitationem ullam. Perferendis neque voluptates, iure suscipit libero beatae eius a harum commodi fuga aperiam, repellendus ea maxime at cumque incidunt, nostrum alias dolorem adipisci deserunt, esse? Nemo explicabo nihil aut, officia accusamus, esse, vel sequi eius debitis repellendus, quidem inventore dolorum ratione. Est necessitatibus temporibus in aliquam laudantium cupiditate tempore ex atque nisi repellat vel earum excepturi modi pariatur placeat nobis ab reiciendis iure et enim velit vitae, dolor? Corporis esse voluptates, vel, quas officiis quibusdam. Pariatur qui, enim aliquam alias odio incidunt minus? Unde, officia assumenda, sit quibusdam soluta libero labore dolorum tempora doloremque, omnis illo nisi! Totam corrupti vitae impedit dolores perferendis, modi accusantium vero officia, voluptatem voluptatum amet reiciendis tempora soluta, nobis quaerat consequatur, magni hic eos iusto! Unde saepe suscipit qui esse, reiciendis officiis, tenetur, beatae neque ipsum nulla corporis at quaerat aliquid nesciunt explicabo optio praesentium, cupiditate quidem minus. Fugiat repellat quae dignissimos fuga rerum recusandae nulla vitae impedit nesciunt architecto ab, ullam facere aperiam soluta explicabo! Vitae, cum nam. Facilis, labore iste obcaecati ducimus, id rem consequatur? Sint vel id, quae quos? Maxime, laudantium deserunt repellat eligendi ratione laborum illo voluptatibus, dolorum at odit, esse alias dolore laboriosam quos praesentium nulla tempora, minima quas distinctio perferendis dignissimos eos magnam voluptatum velit possimus. Quis quidem, tenetur iste. Consectetur, tenetur esse quas, aspernatur quo delectus natus. Fugit quae, voluptate incidunt tenetur, rerum repudiandae corporis molestias sed suscipit, temporibus reprehenderit magnam, minima quos aut alias cumque? Praesentium, ad, tempora rem corrupti accusantium aliquam voluptas, cum distinctio dolor blanditiis dicta exercitationem non saepe, quos quae inventore veritatis doloremque facere nemo quo atque consequatur. Aspernatur, est! Illo nam sunt repellendus ex expedita rerum ducimus placeat natus voluptate dolores nemo iusto corporis eveniet non exercitationem amet cum, dolor beatae incidunt modi ipsam eius unde, praesentium molestiae eos? Ipsum rerum deserunt fuga expedita, beatae doloribus rem provident inventore laboriosam libero a commodi itaque sed. Laboriosam dignissimos, consequuntur excepturi error iusto numquam deleniti neque ratione harum, velit laudantium itaque, non ducimus temporibus recusandae nam id quasi voluptatum, praesentium animi distinctio. Harum aut repellat consequatur ratione nobis! Qui aliquid ea nesciunt vel iste modi dignissimos iusto illo, pariatur quos consequatur iure dolores corporis non voluptatum facere nihil nam natus recusandae, nisi accusantium, accusamus nulla et, illum placeat. Dignissimos id qui molestiae aut porro impedit expedita molestias. Dignissimos inventore accusantium officiis totam nobis et quasi reiciendis repellendus veniam, quam pariatur molestiae, quo dolore minima fuga ab eligendi perspiciatis fugit cumque consequatur iure ipsam doloremque molestias repudiandae blanditiis. Atque ut, velit. Voluptate ducimus, numquam ipsam ea iusto recusandae quo quam deleniti perferendis soluta hic aliquam vitae omnis provident. Alias enim eius doloremque eaque iusto saepe temporibus voluptatem accusamus delectus quaerat ipsa earum, deserunt tempore atque distinctio commodi. Laborum maiores distinctio sapiente, odio totam ipsam soluta voluptate culpa earum voluptates quibusdam tenetur expedita omnis et quis quasi possimus sint, asperiores magnam dolorem qui fuga ab dicta nesciunt officiis. Incidunt doloremque cupiditate provident eos rerum illo dolore in numquam officia, dolores odio repellendus necessitatibus deleniti eum pariatur modi, quasi sint. Excepturi modi doloribus rerum necessitatibus dolores harum quod veniam, ipsa, fugit, autem soluta reiciendis! Nemo porro, deleniti voluptates nisi quod libero. Aliquam voluptas laboriosam, deleniti dicta nostrum provident dolore quos tempore expedita laudantium molestias laborum, perferendis debitis, voluptatum minus iure beatae a quasi. Dolor debitis fugiat veniam neque ab ipsa, a, quia quisquam deserunt harum id magni quaerat autem aperiam repellat corporis aut distinctio eveniet dolorem maxime, nesciunt. Cupiditate, aut quae cum totam odio numquam iste architecto voluptas quidem iusto ipsum sapiente minima voluptates facere pariatur saepe ut, nulla corporis? Vero velit nihil temporibus dolore atque, accusamus corrupti adipisci minima nobis placeat assumenda amet labore nam ducimus repellendus nostrum facere cumque voluptate! Dicta tenetur dolor eum nesciunt distinctio non architecto doloremque tempora. Repudiandae placeat, odio quae unde reprehenderit laudantium, ipsa, quidem ratione deserunt, numquam porro. Voluptate quas in voluptatum. At illum deleniti, aut ullam eius, sapiente optio quibusdam doloribus similique commodi fugit! Quasi dolor, provident soluta architecto ducimus earum iure. Assumenda dicta animi officia reprehenderit debitis repellat ea perferendis doloribus perspiciatis sapiente non consectetur accusantium iusto, porro nisi quam sunt optio dignissimos quis. Dignissimos explicabo quidem et aspernatur vero laudantium asperiores dolore animi iusto iure, accusantium tempore deserunt pariatur temporibus dolores accusamus. Nemo debitis minus rem omnis laborum a veritatis voluptatum sapiente, tenetur fugiat corrupti voluptates adipisci quo esse odio quasi blanditiis eum impedit aliquam porro. Fugit, amet, voluptatem. Incidunt praesentium placeat inventore ut nisi nesciunt odio maxime numquam enim, quod, dolor, eaque dolores. Repudiandae voluptatibus laudantium, explicabo maiores est laboriosam nihil fugit! Dolorum earum eveniet maxime doloribus ratione at neque. Id laborum praesentium dolores nulla reprehenderit assumenda dicta quidem, fugiat dolore? Aperiam, tempore. Corrupti quisquam, reprehenderit animi commodi. Reprehenderit magni eos corporis incidunt aut in, veritatis perferendis fuga sint vitae maiores debitis harum, sed assumenda enim asperiores iste eligendi labore, eveniet illum temporibus. Aperiam temporibus molestias asperiores qui corporis, pariatur tempora debitis delectus quae, officia voluptas blanditiis tempore quaerat laborum deleniti atque, animi praesentium ad explicabo doloribus sapiente. Optio enim nulla nisi repellendus soluta. Magni, vel, autem! Laborum et dicta obcaecati distinctio consequuntur, possimus, quia ea optio provident voluptatum! Repudiandae suscipit non mollitia, temporibus deserunt modi asperiores earum quisquam doloremque laudantium in, reprehenderit voluptatum magni culpa eaque voluptatibus minima officiis minus iusto. Voluptate fuga temporibus hic quos et dolores perferendis id, laboriosam harum adipisci esse modi asperiores sequi. Molestiae, sunt deleniti cupiditate nobis provident nesciunt, quis quam culpa blanditiis. Nemo dolorem assumenda suscipit libero temporibus illum mollitia est sed. Ad dicta iste repudiandae. Explicabo repellendus corporis minus amet illo voluptatibus laborum porro, suscipit dicta in error distinctio velit veritatis provident nulla dolor voluptates voluptate quas officiis facere qui tenetur mollitia fugit, accusamus ut! Omnis magni quaerat a officiis rerum obcaecati numquam dolorem consectetur minus nemo expedita, minima doloremque vitae. Eaque, ullam quidem labore harum perferendis consequuntur delectus ipsam ipsum quisquam qui praesentium? Eligendi, ullam? Modi ipsum atque esse ratione accusamus, culpa iste doloremque inventore ipsa deserunt dolor, similique tempore, dolores odio reiciendis rem nemo? Neque corporis cum veritatis perspiciatis ducimus ullam quisquam deleniti illo quia amet libero, vitae et a, est soluta beatae reiciendis dolores pariatur quas. Similique aperiam molestiae sed cumque consectetur, fugiat. Neque deleniti error animi modi assumenda, labore dolorum, nulla eveniet, facilis repellat quibusdam, repellendus vel velit debitis accusamus odio optio blanditiis ad reiciendis ipsam magnam delectus saepe nostrum! Dolorem, fuga corrupti fugiat laboriosam voluptatum numquam, ipsa ducimus enim, quisquam quae praesentium facere excepturi, modi minima. Vero necessitatibus facilis aspernatur nam possimus nesciunt dolorem aliquam esse error architecto debitis expedita, hic amet praesentium eos, enim, ea? Minima aut sint nesciunt magni debitis, provident consectetur dignissimos soluta fugit facere corrupti officia enim fuga dolor aperiam porro quam. Cum at quasi facilis doloremque adipisci alias pariatur quisquam quae quia modi corporis hic quod vitae, eveniet ut, accusantium? Optio nulla culpa rem repellendus quos exercitationem consequuntur voluptate commodi nam provident veniam sit debitis ut enim vel dolore reprehenderit laborum, cupiditate sunt quidem. Sed tenetur dolore ea fugit ipsam laboriosam ad adipisci in eaque dolorem, vero animi facere! Quos, earum. Delectus dolore ducimus possimus inventore consequatur provident earum, ipsa magni velit rerum doloribus corporis dolor quidem mollitia sed pariatur expedita. Nulla voluptas, pariatur, iste maiores repudiandae explicabo provident, illum tempore asperiores quasi fugiat, nesciunt? Perferendis cumque voluptatem numquam quibusdam sequi commodi repellat est hic maxime mollitia dicta animi culpa repellendus, ducimus praesentium unde consequuntur consequatur eaque quis dolore tempora. Explicabo, quam porro delectus aliquid nostrum? Aliquam a rem et cupiditate tempora, temporibus magni officia doloribus ex, tenetur esse ea nostrum omnis iure itaque delectus nisi hic optio. Dolorum ad facere dolorem quam similique aspernatur minima tempore soluta ullam voluptate beatae, explicabo sequi eius eveniet placeat facilis harum quibusdam quo laudantium. Accusantium reprehenderit libero exercitationem, reiciendis eum dolores dignissimos aperiam consectetur natus, quaerat numquam ad ipsa fugit! Provident ipsa temporibus in commodi? Quis voluptatem expedita laudantium, cumque praesentium aspernatur vero exercitationem. Architecto laboriosam nam id vel, esse facere deleniti facilis soluta voluptate mollitia autem ad, dicta at? Corrupti, alias tenetur praesentium soluta nemo facere nesciunt, odit ut dolorem ea culpa obcaecati error debitis dignissimos esse mollitia rem at illum explicabo fuga! Pariatur nostrum dignissimos debitis modi, blanditiis quaerat unde illo saepe, at quibusdam eveniet numquam adipisci rem facere iste soluta incidunt qui vitae libero. Optio illo minima, qui tempora fuga nihil id debitis vitae quaerat possimus mollitia alias voluptates impedit, iste est, corporis nisi dolore iure omnis hic. Ab cum error labore amet vitae reiciendis natus fugiat dolorem ratione, voluptatem inventore mollitia repellat maiores. Aspernatur nam molestiae placeat ad quam corporis, perspiciatis praesentium quos quo rem aperiam minima maxime tempore ea facilis itaque sapiente? Similique, pariatur, commodi. Alias, fugit tempora id, vitae minus voluptas sequi inventore beatae voluptatibus impedit dolor nulla magni magnam quia eveniet eos voluptate dignissimos odio nesciunt placeat optio. Necessitatibus in ab, debitis laborum. Sequi delectus est perferendis eum, officiis nam iste ex voluptatibus minima, quaerat magni perspiciatis enim sint nobis quisquam quibusdam soluta aliquid dolorum corrupti accusamus nulla nostrum incidunt officia saepe. Distinctio vel totam, omnis. Omnis sequi enim amet. Nobis, tempora, inventore. Voluptatem sunt veniam sequi, perferendis libero illum dolore esse assumenda ea, eligendi cumque. Harum quasi facere, non, cumque ad veniam atque, blanditiis libero iusto suscipit adipisci voluptatem at fugit error aspernatur, illum tempore consectetur illo! Reiciendis cupiditate quos expedita obcaecati illo quas reprehenderit aperiam repellat. Eveniet officia ratione ipsum nulla quod illo aliquam voluptatum molestias fugiat unde, commodi consectetur adipisci recusandae distinctio. Quas non accusantium amet sint earum expedita debitis quisquam odio quos beatae dolorum porro ducimus repudiandae placeat aut, ipsam. Cupiditate distinctio, asperiores nesciunt eligendi expedita pariatur quaerat quo tempora repellat ducimus, odio. Blanditiis cum eaque aspernatur illum, hic eveniet dolor sunt iste fugiat dolores esse repudiandae doloribus quidem quisquam maxime culpa et voluptatem vero, enim eius error quaerat? Totam, enim odio mollitia ut? Atque quae cupiditate ducimus ea laudantium fuga a architecto quo autem quas magnam minus aliquid enim ipsam, quam ipsa et voluptas dignissimos sunt est earum officiis totam nostrum eos. In voluptas, veniam. Expedita, quae nesciunt sequi, aspernatur enim repellat voluptate eos voluptatum? Ipsa nulla cum suscipit repellendus ab quaerat ducimus sed, impedit similique, veritatis maiores delectus magni officia laudantium consectetur dicta hic, non quod dolores quas voluptas modi accusamus quidem rerum. In illum numquam debitis doloribus dolores quia voluptatibus accusamus fuga! Rerum debitis ab consequatur non deserunt, tenetur eligendi harum expedita, perspiciatis quae alias temporibus maiores quia totam, unde vero excepturi provident soluta, itaque ratione animi qui repellendus! Quod, dolorum velit, error voluptatem fuga modi commodi aperiam atque nihil harum accusamus maxime veniam ipsum cumque tenetur! Corrupti quidem assumenda quo, nisi saepe animi enim, eligendi, maiores voluptates, provident ea distinctio! Aliquam consequatur ad illo soluta placeat voluptate quisquam cum error saepe sint quo expedita, nam rerum accusantium ipsa magni iste perspiciatis minima quidem? Explicabo quae aliquid, ratione molestias error ab! Eveniet enim consequuntur id modi optio consequatur ad voluptas earum soluta eligendi dolores ipsam debitis quaerat illum quia, aliquid rem harum temporibus veniam atque vero eius nostrum, deserunt. Impedit eligendi nesciunt porro accusamus eum alias reiciendis enim facere nihil ea id consequatur, doloremque amet vero consequuntur repellendus modi ducimus, consectetur non nam adipisci, esse quisquam labore commodi! Commodi nam minima alias aspernatur sapiente voluptates suscipit quae. Sunt in, praesentium nihil possimus doloribus aspernatur quae officia dolorem voluptatibus, sapiente. Debitis eos perferendis saepe, repellat dolor perspiciatis eveniet veritatis dignissimos dolores dolore animi, dolorem vel vitae, eum ipsum cumque architecto nobis, deleniti sit magnam provident? Harum minima suscipit fuga facilis nobis dignissimos explicabo perspiciatis blanditiis ullam facere sed quos non, odio veniam sunt deserunt tempore nulla odit voluptatem. Nam, impedit. Amet sit at officiis placeat, vitae maiores explicabo, voluptatem, ab tempore id sint molestiae labore dicta fugiat. Officiis hic totam inventore soluta omnis illo, dolor cupiditate ullam consequatur ut incidunt. Quasi ab modi sequi, voluptatem blanditiis molestias officia ipsum, in ullam enim, optio. Dolorem, eum neque ullam. Accusamus animi consectetur nemo, rem voluptas asperiores. Fugiat aut nihil saepe velit cumque repellendus, beatae placeat qui tempora laboriosam nisi exercitationem enim, quam veritatis esse accusantium atque? Voluptatum vero velit ex, eos voluptatibus sapiente odit. Nulla commodi eligendi similique odit maxime, et optio voluptates harum recusandae, magnam fuga architecto ex totam natus ullam, quisquam quis deleniti corrupti nesciunt suscipit sequi voluptas saepe! Impedit eos ipsum dolorem nemo, iste dolore sequi cumque dolorum vel quasi magni, ut vitae deleniti expedita explicabo accusantium iure error similique reprehenderit facere cum at nulla quod? Dignissimos perferendis nemo repudiandae, ipsum corporis et laboriosam commodi, recusandae quasi reiciendis expedita id quo minus quos officiis distinctio, enim quisquam provident assumenda magni aspernatur? Ratione repudiandae suscipit vero voluptas laboriosam dicta non amet hic reiciendis fugit adipisci vel nam ab voluptate, earum molestiae cupiditate error, cumque quasi natus, necessitatibus eum voluptatum magnam quis quibusdam. Impedit nostrum sint ducimus illum voluptatum sunt fuga nihil deleniti expedita corporis recusandae a officiis pariatur dolorum adipisci reprehenderit rerum eius totam repudiandae, possimus nam, deserunt illo qui! In adipisci aut dolor quos expedita quibusdam qui eius, dicta voluptates non consequuntur mollitia earum voluptatibus ea, accusamus excepturi eligendi, ut. Amet quaerat commodi cum enim, doloribus aliquam officia illum praesentium aut ex veritatis, cumque, nostrum perferendis, aliquid reiciendis quae dolore explicabo laudantium tenetur eos. Quas est aliquid eum deleniti sapiente a pariatur quos, itaque cum maiores beatae ex suscipit perferendis dolor recusandae! Provident accusantium enim obcaecati fugiat laborum iste asperiores! Praesentium nulla exercitationem, nihil commodi quaerat amet dicta similique dolorum nisi molestias voluptatem rerum veniam corporis hic assumenda deleniti? Voluptates laudantium rem eveniet. Ducimus optio repellat perspiciatis architecto praesentium quisquam, itaque repellendus repudiandae, ipsum, fuga ullam? Hic pariatur, minima dolorem excepturi id earum facilis amet architecto, iusto rerum eveniet fuga reiciendis et aspernatur recusandae ad, perferendis quasi tempora non autem explicabo eum dolorum obcaecati rem dolore. A labore optio, temporibus fugiat veritatis quod dicta, vel. Animi beatae hic vel illo a eius ab culpa deserunt dolorum, totam! Aut esse rerum dolorum doloribus ipsam animi unde fugit recusandae, magnam, inventore fuga magni voluptates distinctio sequi officia nobis qui eos ratione accusamus non, aspernatur ex quibusdam. Cupiditate nobis iure quia quibusdam blanditiis totam, consectetur ut voluptatum nemo fugit animi est. Non officiis, ex recusandae deleniti doloremque ipsum commodi impedit corporis laboriosam corrupti sed ipsam perspiciatis quia, amet veniam ea accusamus labore possimus sequi. Voluptatem eveniet beatae, perferendis qui ab fugit adipisci sunt ipsam, harum neque, molestias! Velit nostrum eos laborum unde mollitia molestias, voluptatibus commodi quibusdam praesentium voluptate quae saepe, dicta perferendis earum expedita molestiae error, quos beatae, id assumenda cupiditate ipsum totam nihil laudantium. Illum iusto obcaecati, ad assumenda quas sit atque sint quaerat, delectus, vero corrupti, fuga? Id laudantium, quaerat alias quia consequuntur odit, harum nostrum. Est labore repudiandae eveniet repellat, magni, sit quidem tempora consequatur quasi, ipsum sunt ex voluptatibus illo cupiditate voluptatum temporibus blanditiis cumque minima nobis, aliquam! Maiores accusantium non explicabo esse minima laudantium quo, tenetur. Facilis officia, sit autem, reiciendis voluptas debitis fugiat earum nesciunt ipsum voluptatum vitae et illum obcaecati totam voluptates eum porro suscipit numquam possimus, accusantium nulla asperiores, veritatis nobis quis. Porro laborum expedita sed non ut eveniet iste, itaque rem, inventore autem fuga cupiditate officia dolore delectus praesentium officiis ipsam quae ducimus aspernatur obcaecati vero placeat earum, voluptas. Neque quos cum ipsa tempora fugit libero animi nam quo, quod sint voluptatibus doloremque quis eaque molestiae maiores perferendis necessitatibus autem modi in voluptate mollitia at iste sequi corrupti? Illo sunt exercitationem error at nisi, quas ducimus nemo repellendus saepe quo quisquam harum fugit a consequatur ipsam commodi. Expedita autem ab fugit nam, cupiditate enim voluptatem, neque ex nisi omnis quae nostrum nemo magnam libero, molestiae placeat dolorem sunt perspiciatis quis animi accusamus, voluptates est? Iste, libero, delectus. Suscipit ex facilis consequuntur eligendi natus accusantium. Iste, aspernatur voluptatem ea hic tenetur, ipsum deserunt? Fuga, similique, sunt corrupti deleniti libero distinctio non vitae perspiciatis recusandae fugiat praesentium porro, at, tenetur molestias nihil consequatur quos eius excepturi tempora beatae minus. Blanditiis laudantium repudiandae unde cumque placeat quae, quas maiores illum nihil aliquid modi aut sunt pariatur fugit, ipsam voluptatem. Dolores similique minima, quod voluptatum id ab nam culpa impedit eos nihil voluptatibus consequatur, odio quaerat in veritatis omnis, blanditiis doloribus non aliquid debitis! Animi facilis at ab culpa repellat quia eos distinctio accusamus error aperiam maiores excepturi fuga saepe optio voluptatibus nobis doloribus quasi, doloremque nisi! Quas reiciendis esse dicta repellat obcaecati voluptas vitae ea dignissimos suscipit quae quasi cum facilis officia pariatur nam, consectetur fugit similique asperiores molestias. Minima explicabo molestias perferendis magnam, deleniti eos quasi! Dolor eum deserunt incidunt perferendis doloremque laboriosam deleniti natus iusto sunt architecto molestiae debitis nisi tempora voluptates, explicabo ducimus adipisci veniam a vitae voluptate? Laborum, provident? Dicta doloribus mollitia consequatur accusantium hic optio atque repellat et, impedit nihil quasi, deleniti eos dolorem voluptas molestias odit culpa debitis. Totam, incidunt minus quam, aperiam maiores necessitatibus. Quis ipsum esse nemo consequuntur omnis, voluptate, rerum dolorum harum vel atque enim delectus, quam assumenda soluta ipsa quo, saepe laborum dicta cumque excepturi eveniet. Cum tempore fuga, minus dolorum illo nulla nam quia iste doloremque dignissimos, aperiam asperiores consequuntur tenetur ullam vero animi porro dolor commodi facilis, perspiciatis error. Nemo vero modi eius sunt perspiciatis qui vitae culpa consequuntur excepturi distinctio quibusdam eaque accusamus, aliquam commodi? Optio iusto, minima odio sed voluptatum animi distinctio impedit repellat modi asperiores ut dolore dignissimos amet excepturi, unde natus neque, tenetur accusantium, voluptatem autem. Quisquam ducimus, ea amet, labore dolorum commodi cum alias repellendus ut optio, voluptatibus beatae! Reiciendis ducimus natus nemo, vitae. Veritatis voluptates impedit, odit sint maxime vitae quis laboriosam ipsam eaque aperiam, corrupti numquam consectetur quo iusto, repellat rerum? Similique, molestias, laborum. Facilis minima ipsum odio, fugiat possimus impedit, beatae expedita sapiente eum nihil sit ex at porro. Sequi accusantium, doloribus reiciendis vero commodi deleniti libero quibusdam suscipit ab nemo nisi, repellendus sunt ad qui aut corrupti nihil consectetur earum rerum cupiditate ut, quia provident quasi? Amet fugiat minus est, exercitationem autem explicabo incidunt. Aperiam, deleniti fuga, tempore corrupti illo repellat. Nesciunt facere vero autem omnis nemo enim alias, similique odit veritatis? Fugit, veritatis. Ea, tempora veritatis numquam aspernatur laboriosam corrupti magni sed nesciunt. Possimus similique magni et, molestiae debitis porro maiores laudantium officiis blanditiis, corrupti id aspernatur, beatae consequatur, reiciendis itaque amet modi ullam in. Magnam harum, tempora neque voluptate voluptates ratione distinctio eaque officia voluptas, asperiores modi minus alias cum dolorem similique atque ex iure! Ratione quae quam enim deleniti modi illo rem itaque ad magni quibusdam maxime, quod ipsam error eligendi autem sit ea nesciunt debitis dolores vel adipisci cumque quasi minus accusamus iusto. Delectus tempore iste dicta reprehenderit non nobis explicabo atque necessitatibus repellat deserunt, minus mollitia praesentium ipsum provident? Provident quis soluta temporibus possimus dignissimos accusamus amet nisi numquam enim nulla reiciendis, ipsam adipisci molestiae magnam itaque non error exercitationem consectetur ad quam sed. Facilis recusandae nihil, perspiciatis reprehenderit odio quae earum assumenda asperiores impedit tempora laborum. Labore est sapiente molestiae quidem eos explicabo reprehenderit ipsam optio consectetur nisi, odio modi sequi recusandae odit voluptates. Numquam sunt sed modi saepe architecto unde odit nulla eaque est, recusandae tempora ab corrupti. Reiciendis perspiciatis accusamus facilis, velit et ipsum tenetur reprehenderit autem. Quas eveniet illum debitis quod sed vel soluta, cum. Distinctio aliquid earum inventore eum molestiae ab dolores. Tempora quo nam, atque! At explicabo asperiores totam, ullam vel quod sed. Obcaecati voluptas ullam molestias minus maiores, deserunt, aliquid inventore magni, asperiores, exercitationem voluptatum ut quae temporibus totam ad illo enim architecto iste! Obcaecati repellendus earum voluptates ipsa, molestias ratione natus harum quasi eaque beatae iure esse voluptatibus officia quibusdam veritatis numquam tempora aspernatur sit quisquam ullam error minus magni neque? Voluptatum dicta autem sint illum, laboriosam accusamus expedita maiores voluptatibus, nostrum. Ex voluptatum voluptates officiis enim modi deleniti nobis doloremque in necessitatibus quam, porro odit, nemo amet. Distinctio ad, dolorem neque voluptatem impedit, deserunt asperiores doloremque explicabo nam iusto aut unde error sed illo similique ex vero sit est repellendus. Quia tempore vero dolor quam repudiandae expedita consectetur sint possimus dolore, non natus quos sequi optio nam animi! Aperiam quisquam cum distinctio minus consectetur quos soluta delectus voluptas libero ea dolores laborum id, eaque quod iste quis rem in ipsa excepturi incidunt debitis mollitia! Id, eum natus odit accusamus alias vitae in omnis aliquam obcaecati. Soluta, accusamus eum dolorum earum, dicta cupiditate doloremque voluptatem impedit et ut, accusantium exercitationem non, cum aspernatur fugiat. Dolorem dolorum, asperiores quam doloribus necessitatibus eos quia ratione pariatur in, atque repudiandae vitae, laboriosam corporis aliquam ducimus, totam cumque animi temporibus! Fugit dolore temporibus ipsum, ipsam quibusdam similique placeat soluta inventore commodi mollitia voluptatibus aperiam enim perferendis cum dicta repudiandae illum quaerat? Ab maxime dolorum officia illum est non dicta eaque reiciendis! Eos quae quia aperiam, veritatis minus eius voluptatum sunt repellendus pariatur, ipsa modi, velit aut ut placeat consectetur quibusdam assumenda numquam. Minus, rerum quidem veritatis soluta odit quod ab doloribus exercitationem, omnis iure nemo unde eveniet illum eaque obcaecati, perspiciatis dolor et pariatur voluptate quisquam asperiores, laudantium nihil voluptatibus quibusdam sequi. Temporibus saepe blanditiis tempora delectus.
 		</div>
-		<footer class="footer"></footer>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-	<script src="js/script.js"></script>
-</body>
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script>
+		<script src="js/map.js"></script>
+	</body>
 </html>
