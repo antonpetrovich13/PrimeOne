@@ -881,3 +881,247 @@ body{
 		}
 	}
 }
+
+// <HELLO> ========================================================================================
+
+.hello {
+	padding: 82px 0 0 0;
+	&__title {
+		font-family: AkzidenzGroteskBQ-BdCnd;
+		font-size: 50px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: #000000;
+	}
+	&__wrapper {
+		margin: 35px 0 0 0;
+		display: flex;
+		align-items:center;
+	}
+	&__column {
+		flex: 0 1 50%;
+	}
+	&__adress {
+		padding: 7px 0 7px 30px;
+		background: url(../img/hello/01.png) no-repeat left;
+		font-family: PTSans;
+		font-size: 15px;
+		color: #000000;
+		margin: 0 0 23px 0;
+	}
+	&__phone {
+		position: relative;
+		padding: 3px 0 3px 30px;
+		background: url(../img/hello/02.png) no-repeat left;
+		font-family: PTSans;
+		font-size: 15px;
+		color: #000000;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: 0px;
+			right: 0;
+			width: 80%;
+			height: 1px;
+			background-color: #000;
+			transform:scale(0);
+			transition:all 0.4s ease 0s;
+		}
+		&:hover:after{
+			transform:scale(1);
+		}
+	}
+	&__message {
+		position: relative;
+		padding: 0 0 0 36px;
+		background: url(../img/hello/03.png) no-repeat left;
+		font-family: PTSans;
+		font-size: 15px;
+		color: #000000;
+		&:after{
+			content: '';
+			position: absolute;
+			bottom: -2px;
+			right: 0;
+			width: 81%;
+			height: 1px;
+			background-color: #000;
+			transform:scale(0);
+			transition:all 0.4s ease 0s;
+		}
+		&:hover:after{
+			transform:scale(1);
+		}
+	}
+	&__links {
+		margin: 25px 0 0 0;
+	}
+	&__link {
+		margin: 0 15px;
+		transition:all 0.4s ease 0s;
+		&:first-child{
+			margin: 0 15px 0 0;
+		}
+		&:last-child{
+			margin: 0 0 0 15px;
+		}
+		&:hover{
+			opacity: 0.5;
+		}
+	}
+	@media (max-width: 980px) {
+		padding: 50px 0 0 0;
+		&__title{
+			text-align: center;
+		}
+		&__column{
+			&_2{
+				text-align: right;
+			}
+		}
+	}
+	@media (max-width: 600px) {
+		&__adress{
+			max-width: 210px;
+			line-height: 20px;
+			margin: 0 0 10px 0;
+		}
+		&__links{
+			margin: 32px 0 0 0;
+		}
+		&__link{
+			margin: 0 8px;
+			&:first-child{
+			margin: 0 8px 0 0;
+		}
+		&:last-child{
+			margin: 0 0 0 8px;
+		}
+		}
+	}
+	@media (max-width: 470px) {
+		padding: 30px 0 0 0;
+		&__wrapper{
+			margin: 25px 0 0 0;
+			display: block;
+		}
+		&__column{
+			text-align: center;
+			&_2{
+				margin: 34px 0 0 0;
+			}
+		}
+		&__title{
+			font-size: 35px;
+		}
+		&__adress{
+			margin: 0 auto 15px auto;
+		}
+	}
+}
+
+.body {
+	margin: 28px 0 0 0;
+	&__wrapper {
+		display: flex;
+	}
+	&__column {
+		flex: 0 1 50%;
+		&_2 {
+				background-color:#000;
+		}
+	}
+	&__map {
+		height: 100%;
+	}
+	&__item {
+		padding: 55px 0 55px 60px;
+	}
+	&__title {
+		font-family: AkzidenzGroteskBQ-BdCnd;
+		font-size: 25px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: #ffffff;
+	}
+	&__form {
+		margin: 28px 0 0 0;
+	}
+	&__name {
+		padding: 0 0 0 18px;
+		font-family: PTSans;
+		font-size: 15px;
+		width: 374px;
+		height: 48px;
+		background-color: #252525;
+		border: 2px solid #959595;
+		color: #959595;
+	}
+	&__mail {
+		margin: 25px 0;
+		display: block;
+		padding: 0 0 0 18px;
+		font-family: PTSans;
+		font-size: 15px;
+		width: 374px;
+		height: 48px;
+		background-color: #252525;
+		border: 2px solid #959595;
+		color: #959595;
+	}
+	&__textarea {
+		display: block;
+		padding: 10px 0 0 18px;
+		font-family: PTSans;
+		font-size: 15px;
+		width: 374px;
+		height: 100px;
+		background-color: #252525;
+		border: 2px solid #959595;
+		color: #959595;
+	}
+	&__button {
+		margin: 25px 0 0 0;
+	}
+	@media (max-width: 980px) {
+		&__wrapper{
+			flex-direction:column;
+		}
+		&__column{
+			&_1{
+				order:2;
+			}
+			&_2{
+				order:1;
+			}
+		}
+		&__item{
+			text-align: center;
+			padding: 55px 0;
+		}
+		&__mail{
+			margin: 25px auto 25px auto;
+		}
+		&__textarea{
+			margin: 0 auto;
+		}
+		&__map{
+			height: 200px;
+		}
+	}
+	@media (max-width: 460px) {
+		&__item{
+			padding: 30px 0;
+		}
+		&__name{
+			width: 250px;
+		}
+		&__mail{
+			width: 250px;
+		}
+		&__textarea{
+			width: 250px;
+		}
+	}
+}
+
