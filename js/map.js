@@ -32,7 +32,7 @@ function map(n){
 	}; 
 	var map = new google.maps.Map(document.getElementById('map'), options);
 	var icon={
-		url:'img/pin.png',
+		
 		scaledSize: new google.maps.Size(26, 35),
 		anchor: new google.maps.Point(9, 10)
 	}
