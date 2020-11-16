@@ -60,28 +60,28 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 @font-face {
-  font-family: 'AkzidenzGroteskBQ-BdCnd';
+  font-family: "AkzidenzGroteskBQ-BdCnd";
   src: url("../fonts/AkzidenzGrotesk-BoldCondAlt.eot");
   src: local("☺"), url("../fonts/AkzidenzGrotesk-BoldCondAlt.woff") format("woff"), url("../fonts/AkzidenzGrotesk-BoldCondAlt.ttf") format("truetype"), url("../fonts/AkzidenzGrotesk-BoldCondAlt.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Bebas';
+  font-family: "Bebas";
   src: url("../fonts/BebasNeue Regular.eot");
   src: local("☺"), url("../fonts/BebasNeue Regular.woff") format("woff"), url("../fonts/BebasNeue Regular.ttf") format("truetype"), url("../fonts/BebasNeue Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
-  font-family: 'PTSans';
+  font-family: "PTSans";
   src: url("../fonts/PTS55F.eot");
   src: local("☺"), url("../fonts/PTS55F.woff") format("woff"), url("../fonts/PTS55F.ttf") format("truetype"), url("../fonts/PTS55F.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
 
 body {
-  font-family: 'AkzidenzGroteskBQ-BdCnd'; }
+  font-family: "AkzidenzGroteskBQ-BdCnd"; }
   body.lock {
     overflow: hidden; }
 
@@ -113,7 +113,7 @@ body {
   z-index: 3;
   width: 100%; }
   .header:before {
-    content: '';
+    content: "";
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -195,10 +195,10 @@ body {
     text-transform: uppercase;
     color: #000000; }
     .top__link:after {
-      content: '';
+      content: "";
       display: block;
       position: absolute;
-      bottom: 0;
+      bottom: -1px;
       left: 0;
       width: 100%;
       height: 1px;
@@ -233,11 +233,30 @@ body {
     -ms-flex-align: center;
     align-items: center; }
   .bottom__link {
+    position: relative;
     white-space: nowrap;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin: 0 23.5px; }
+    .bottom__link:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 1.5px;
+      bottom: -2px;
+      left: 0;
+      background-color: #000;
+      -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+      transform: scale(0);
+      -webkit-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; }
+    .bottom__link:hover:after {
+      -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+      transform: scale(1); }
     .bottom__link:first-child(1) {
       margin: 0 23.5px 0 0; }
     .bottom__link:last-child(1) {
@@ -269,7 +288,7 @@ body {
     font-family: Bebas;
     font-size: 9px;
     text-transform: uppercase;
-    letter-spacing: 1.0em;
+    letter-spacing: 1em;
     color: #000000; }
   .logo__image {
     max-width: 100%; }
@@ -282,7 +301,7 @@ body {
     font-family: Bebas;
     font-size: 9px;
     text-transform: uppercase;
-    letter-spacing: 1.0em;
+    letter-spacing: 1em;
     color: #000000; }
 
 @media (max-width: 950px) {
@@ -312,7 +331,7 @@ body {
       width: 30px;
       height: 30px; }
       .top__burger:before {
-        content: '';
+        content: "";
         position: absolute;
         z-index: 6;
         top: 0;
@@ -324,7 +343,7 @@ body {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
       .top__burger span {
-        content: '';
+        content: "";
         position: absolute;
         z-index: 6;
         top: 8px;
@@ -336,7 +355,7 @@ body {
         -o-transition: all 0.3s ease 0s;
         transition: all 0.3s ease 0s; }
       .top__burger:after {
-        content: '';
+        content: "";
         position: absolute;
         top: 16px;
         left: 0;
@@ -594,7 +613,7 @@ body {
   color: #fffffe;
   position: relative; }
   .link:after {
-    content: '';
+    content: "";
     display: block;
     position: absolute;
     bottom: 0;
@@ -957,7 +976,7 @@ body {
     font-size: 15px;
     color: #000000; }
     .hello__phone:after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: 0px;
       right: 0;
@@ -982,7 +1001,7 @@ body {
     font-size: 15px;
     color: #000000; }
     .hello__message:after {
-      content: '';
+      content: "";
       position: absolute;
       bottom: -2px;
       right: 0;
@@ -1168,7 +1187,7 @@ body {
     font-size: 15px;
     color: #4d4d4d; }
     .footer__link:after {
-      content: '';
+      content: "";
       position: absolute;
       left: 0;
       bottom: -0.5px;
